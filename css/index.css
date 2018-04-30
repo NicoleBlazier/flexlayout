@@ -2,20 +2,69 @@
     font-family: Roboto;
 }
 
+body {
+    background-color: black;
+    margin: 2rem;
+    font-family: 'roboto';
+}
+.boldwhiteheader {
+    color: white;
+    font-weight: bold;
+    font-size: 32px;
+    padding: 2rem;
+}
+
+.grayheader {
+    color: gray;
+}
 #header {
     background-color: darkgray;
+    margin: 0;
+    padding: 2rem;
+    text-align: Left;
+    vertical-align: top;
 }
 
 #sidebar {
     background-color: orangered;
+    flex-grow: 0;
+    flex-shrink: 0;
+    flex-basis: 250px;
 }
 
 #article {
-    background-color:w white;
+    background-color:white;
     color: darkgray;
+    flex-grow: 1;
+    padding: 1rem 4rem 2rem 4rem;
 }
-
 
 #footer {
     background-color: lightgray;
+    height: 100px;
+    padding-top: auto;
 }
+
+.flexcontainer {
+    display: flex;
+    flex: nowrap;
+
+}
+/* aside {
+    flex-grow: 0;
+    flex-shrink: 0;
+    flex-basis: 250px;
+    background-color:  ;
+}
+
+article {
+    flex-grow: 1;
+    padding: 1rem 4rem 2rem 4rem;
+    color: #444;
+}
+
+@media only screen and (min-width: 768px) {
+    main {
+        flex-direction: row;
+    }
+    } */
