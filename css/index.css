@@ -1,0 +1,21 @@
+* {
+    font-family: Roboto;
+}
+
+#header {
+    background-color: darkgray;
+}
+
+#sidebar {
+    background-color: orangered;
+}
+
+#article {
+    background-color:w white;
+    color: darkgray;
+}
+
+
+#footer {
+    background-color: lightgray;
+}
